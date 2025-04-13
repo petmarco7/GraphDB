@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphdb"
+version = "0.1.0"
+description = ""
+authors = ["petmarco7 <marco.petrella7@libero.it>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+py2neo = "^2021.2.4"
+matplotlib = "^3.10.1"
+networkx = "^3.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
